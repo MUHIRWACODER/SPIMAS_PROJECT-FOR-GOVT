@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SPIMAS Dashboard</title> 
+    <link rel="stylesheet" href="spamis_styling.css">
+       
+</head>
+<body>
+
+    <h1>SPIMAS</h1>
+     <p>Smart Public Infrastructure Monitoring & Accountability System</p>
+    <h2>District Engineer Dashboard</h2>
+
+     <nav><!--navigation links-->
+            <a href="index123.html">Home</a> | 
+            <a href="citizen.html">Citizen Portal</a> |
+            <a href="https://www.minecofin.gov.rw " target="_blank">MINECOFIN Site</a> |
+            <a href="engineeringdashboard.html">Engineer Dashboard</a> |
+            <a href="contractorportal.html">Contractor Portal</a>
+        </nav>
+    <p>Use this page to validate reports and manage work orders.</p>
+
+    <hr>
+
+    <h3>Summary Statistics</h3>
+    <ul>
+        <li>Total Reports: 124</li>
+        <li>Pending Validation: 18</li>
+        <li>Resolved: 85</li>
+        <li>Critical Pending: 5</li>
+    </ul>
+
+    <hr>
+
+    <h3>Reports Inbox</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Category</th>
+                <th>Severity</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Pothole</td>
+                <td>Critical</td>
+                <td>Large pothole on the main road to the market.</td>
+                <td>May 10, 2026</td>
+                <td>
+                    <button onclick="alert('Validated')">Validate</button>
+                    <button onclick="alert('Rejected')">Reject</button>
+                </td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Street Light</td>
+                <td>Minor</td>
+                <td>The lamp post near the school is flickering.</td>
+                <td>May 12, 2026</td>
+                <td>
+                    <button onclick="alert('Validated')">Validate</button>
+                    <button onclick="alert('Rejected')">Reject</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <p><b>Note:</b> Click the "Validate" button to approve a report for repair.</p>
+
+</body>
+</html>

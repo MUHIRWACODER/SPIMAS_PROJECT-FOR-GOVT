@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"> 
+    <h1>SPIMAS   </h1>
+    <p>Smart Public Infrastructure Monitoring & Accountability System</p>
+    <title>SPIMAS - Citizen Portal</title>
+    <link rel="stylesheet" href="spamis_styling.css">
+    
+</head>
+<body>
+
+
+    <header>
+        <h1>SPIMAS - Citizen Portal</h1>
+        <nav>
+            <a href="index123.html" target="_blank">Home</a> | 
+            <a href="citizen.html">Portal</a> |
+            <a href="https://www.minecofin.gov.rw " target="_blank">MINECOFIN Site</a> |
+            <a href="engineeringdashboard.html" target="_blank">Engineer Dashboard</a> |
+            <a href="contractorportal.html" target="_blank">Contractor Portal</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Section 1: Detailed Login -->
+    <section>
+        <h2>Account Login</h2>
+        <form>
+
+
+           <label> Full Name</label>
+           <input type="text" name="name" placeholder="Andika amazina yawe">
+            <label>national ID:</label> 
+             <input type="number" name="id" placeholder="Shyiramo umubare w' irangamuntu">
+            <label>E-mail</label> 
+            <input type="email" name="email" placeholder="Andika imeyili yawe">
+            <label>Enter your password</label> 
+            <input type="password" name="pw" placeholder="Shyiramo ijambo banga">
+            <button type="submit">Login to Portal</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- Section 2: Reporting Form -->
+    <section>
+        <h2>Report an Issue</h2>
+        <form>
+            <label>What is the issue?</label><br>
+            <input type="text" placeholder="e.g. Broken Water Pipe"><br><br>
+
+            <label>Location (District):</label><br>
+            <input type="text" placeholder="shyiramo akarere utuyemo"><br><br>
+
+            <label>Severity (1 to 5):</label><br>
+            <input type="number" min="1" max="5" placeholder="sobanura uburyo ki ikibazo giteye ukoresheje imibare"> <br><br>
+
+            <label>Describe the problem:</label><br>
+            <textarea rows="4" cols="30" placeholder="sobanura uburyo ki ikibazo giteye mu magambo"></textarea><br><br>
+
+            <button type="submit">Submit Report</button>
+        </form>
+    </section>
+
+    <hr>
+
+    
+    <section>
+        <h2>Active Projects</h2>
+        <table border="1"> 
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Budget (RWF)</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kigali Ring Road</td>
+                    <td>12.4 Billion</td>
+                    <td>On Track</td>
+                </tr>
+                <tr>
+                    <td>Bugesera Water</td>
+                    <td>5.8 Billion</td>
+                    <td>Delayed</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+</html>
